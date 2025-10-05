@@ -6,6 +6,8 @@ state(['word', 'word_reverse']);
 
 mount(function () {
     $this->word_reverse = strrev($this->word);
+
+    
 });
 
 ?>
